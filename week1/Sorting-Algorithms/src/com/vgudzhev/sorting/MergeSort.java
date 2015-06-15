@@ -44,7 +44,7 @@ public class MergeSort implements Sortable {
 	      index++;
 	    }
 	    
-	    // if i > middle the elements are in right order
+	    // if leftIndex > leftEnd the elements are in right order
 	    while (leftIndex <= leftEnd) {
 	      arr[index] = tempArray[leftIndex];
 	      index++;
