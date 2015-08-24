@@ -11,15 +11,7 @@ public class RMQTree {
 	}
 
 	private void initTree(int[] tree) {
-		// fill values
-		for (int j = size, i=0; i <= tree.length; i++,j++) {
-			values[size] = tree[i];
-		}
 		
-		// fill index tree
-		for (int i = 0; i < tree.length; i++) {
-			
-		}
 		
 	}
 	
